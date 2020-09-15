@@ -1,6 +1,9 @@
 package org.launchcode.studio7;
 
-public class CD {
+public class CD extends AbstractDisc {
+    public CD(String name, String contents, double capacity, String discType) {
+        super(name, contents, capacity, discType);
+    }
 
     // TODO: Implement your custom interface.
 
